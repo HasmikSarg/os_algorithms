@@ -5,12 +5,13 @@
 [![Pandas](https://img.shields.io/badge/Pandas-2.2.2-yellow.svg)](https://pypi.org/project/pandas/)
 [![Status](https://img.shields.io/badge/Status-Beta-orange.svg)]()
 
-
+```
  ___  ___  _ _   ___       _           _       _  _             _     ___                   ___            _                                   _     ___  _                 _    _    _              
 |  _>| . \| | | / __> ___ | |_  ___  _| | _ _ | |<_>._ _  ___  < >   | . \ ___  ___  ___   | . \ ___  ___ | | ___  ___  ___ ._ _ _  ___ ._ _ _| |_  | . || | ___  ___  _ _ <_> _| |_ | |_ ._ _ _  ___
 | <__|  _/| ' | \__ \/ | '| . |/ ._>/ . || | || || || ' |/ . | /.\/  |  _/<_> |/ . |/ ._>  |   // ._>| . \| |<_> |/ | '/ ._>| ' ' |/ ._>| ' | | |   |   || |/ . |/ . \| '_>| |  | |  | . || ' ' |<_-<
 `___/|_|  `___' <___/\_|_.|_|_|\___.\___|`___||_||_||_|_|\_. | \_/\  |_|  <___|\_. |\___.  |_\_\\___.|  _/|_|<___|\_|_.\___.|_|_|_|\___.|_|_| |_|   |_|_||_|\_. |\___/|_|  |_|  |_|  |_|_||_|_|_|/__/
                                                          <___'                 <___'                 |_|                                                    <___'                                    
+```
 
 A comprehensive suite for analyzing and visualizing CPU scheduling and page replacement algorithms, with automated data generation and reporting.
 
