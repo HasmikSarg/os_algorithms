@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# foldery
+dane_wejsciowe/
+dane_wyjsciowe/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# wykresy i raporty
+*.png
+*.csv
+*.txt
+*.pdf
+*.odt
+*.json
+
+# archiwa
+*.zip
+
+# ustawienia VS Code
+.vscode/
+
+# zmienne środowiska
+env/
+.venv/
+
+# logi
+*.log
