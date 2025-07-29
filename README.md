@@ -78,13 +78,6 @@ A comprehensive suite for analyzing and visualizing CPU scheduling and page repl
    - Reports, CSV summaries, and PNG charts are auto-generated
 
 
-## Screenshots
-
-![CPU Scheduling Gantt Chart](https://github.com/user-attachments/assets/b6293cc8-86d5-44fb-b69c-bee71dd9b673)
-![Performance Analysis](https://github.com/user-attachments/assets/ae1f0b9d-70df-4373-b79a-29b827c7ea34)
-![Data Sets](https://github.com/user-attachments/assets/ac8ed108-3784-45c4-aaff-3e7f0e430402)
-![Distribution View](https://github.com/user-attachments/assets/7104f9d1-6ebb-4bde-9cb4-c1438117932b)
-
 ## Project Structure
 
 ```
