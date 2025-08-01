@@ -16,7 +16,7 @@
 
 ```
 
-A comprehensive suite for analyzing and visualizing CPU scheduling and page replacement algorithms, with automated data generation and reporting.
+A simple program for analyzing and visualizing CPU scheduling and page replacement algorithms, with automated data generation and reporting.
 
 ## Features
 
@@ -24,27 +24,26 @@ A comprehensive suite for analyzing and visualizing CPU scheduling and page repl
   - SJF (Shortest Job First, preemptive & non-preemptive)
   - Round Robin (configurable quantum)
   - Priority-based scheduling
-  - Custom workload generation
+  - Automated workload generation
 
-- **Page Replacement Algorithms**:
+- **Page Replacement Algorithms** (configurable frames):
   - LRU (Least Recently Used)
   - LFU (Least Frequently Used)
   - Automated sequence generation
 
 - **Data Generation**:
-  - Random, sequential, mixed, and custom distributions for processes and page references
+  - Custom distributions for processes and page references
   - CSV and JSON export for input datasets
   - Batch generation for multiple test sets
 
 - **Performance Analysis**:
-  - Average waiting, turnaround, response, and completion times
-  - Page hit/miss rates, error statistics
+  - Average turnaround, waiting, completion and response times
+  - Page hit/miss rates and execution time
   - Comparative analysis across algorithms and datasets
 
 - **Visualization**:
   - Gantt charts for CPU scheduling
   - Performance graphs and histograms
-  - Page replacement efficiency plots
   - Automated report and chart export (PNG, CSV, TXT)
 
 ## Prerequisites
@@ -67,39 +66,35 @@ A comprehensive suite for analyzing and visualizing CPU scheduling and page repl
 3. **Run simulations:**
    - **CPU Scheduling:**
      ```bash
-     python szeregowanie_cpu/cpu_PROGRAM.py
+     python cpu_scheduling/cpu_RUN.py
      ```
    - **Page Replacement:**
      ```bash
-     python zastepowanie_stron/strony_PROGRAM.py
+     python page_replacement/page_RUN.py
      ```
-
-4. **View results:**
-   - Output files are saved in `szeregowanie_cpu/dane_wyjsciowe/` and `zastepowanie_stron/dane_wyjsciowe/`
-   - Reports, CSV summaries, and PNG charts are auto-generated
 
 
 ## Project Structure
 
 ```
 README.md
-szeregowanie_cpu/
-    cpu_generator.py
-    cpu_PROGRAM.py
-    cpu_zasady.py
-    SJF_niewywl.py
-    SJF_wywl.py
-    Round_Robin.py
-    dane_wejsciowe/
-    dane_wyjsciowe/
-zastepowanie_stron/
-    strony_generator.py
-    strony_PROGRAM.py
-    strony_zasady.py
+cpu_scheduling/
+    cpu_generate.py
+    cpu_RUN.py
+    cpu_simulate.py
+    SJF.py
+    SRTF.py
+    RR.py
+    input_data/
+    output_data/
+page_replacement/
+    page_generate.py
+    page_RUN.py
+    page_simulate.py
     LRU.py
     LFU.py
-    dane_wejsciowe/
-    dane_wyjsciowe/
+    input_data/
+    output_data/
 ```
 
 ## License
