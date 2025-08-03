@@ -1,4 +1,4 @@
-# Scheduler & Replacer Ruler 
+# CPU & Page Algorithms
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-3.9.2-red.svg)](https://pypi.org/project/matplotlib/)
